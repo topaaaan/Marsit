@@ -77,7 +77,8 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="text">
-                            <p>Untuk kamu yang ingin mencari pengalaman baru dalam berkarir di dunia marketing atau yang sudah berpengalaman ingin membuktikan kemampuan anda dalam bidang marketing, KB Bukopin menyediakan 2 jenis lowongan yaitu sales leader dan marketing Agent.</p>
+                            <p>Untuk kamu yang ingin mencari pengalaman baru dalam berkarir di dunia marketing atau yang sudah berpengalaman ingin membuktikan kemampuan anda dalam bidang marketing, PT. Marsit Bangun Sejahtera menyediakan 2 jenis lowongan yaitu sales leader dan marketing Representative.</p>
+                            <a href="https://www.nabasa.co.id/recruitment/" class="btn btn-primary">Lamar Sekarang</a>
                         </div>
                     </div>        
                 </div>
