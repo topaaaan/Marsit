@@ -449,6 +449,7 @@ footer .bottom p {
     #visi-misi .text {
       padding: 2rem 2rem 2rem 20rem;
       margin-left: 8rem;
+      min-height: 25rem;
     }
 
     #visi-misi .gambar img {
