@@ -1,0 +1,588 @@
+body {
+	font-family: 'Hind', sans-serif;
+  animation: content_reveal 0.5s ease;
+}
+
+h1 {
+  font-size: 1.3rem;
+  color: #183358;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #183358;
+}
+
+p, li, .btn {
+  font-size: .8rem;
+}
+
+#navbar .navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#navbar .navbar-brand img {
+	height : 3rem;
+}
+
+#navbar .navbar {
+    box-shadow: 0 0px 30px -10px rgb(0 0 0 / 40%);
+    padding: 15px 10px;
+    background-color: #fff;
+}
+
+#navbar .navbar .navbar-toggler .menu-btn .line, #navbar .navbar .navbar-toggler .menu-btn:before, #navbar .navbar .navbar-toggler .menu-btn:after {
+  width: 80%;
+  height: 3px;
+  background-color: #1f2d3d;
+  border-radius: 8px;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+#navbar .navbar .navbar-toggler {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          padding: .25rem;
+          outline: none;
+          border-color: transparent;
+}
+
+#navbar .navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+#navbar .navbar button.navbar-toggler::-moz-focus-inner {
+  border: 0;
+}
+
+#navbar .navbar .navbar-toggler .menu-btn {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#navbar .navbar .navbar-toggler .menu-btn:before {
+  content: "";
+  position: absolute;
+  -webkit-transform: translateY(8px);
+          transform: translateY(8px);
+}
+
+#navbar .navbar .navbar-toggler .menu-btn:after {
+  content: "";
+  position: absolute;
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+}
+
+#navbar .navbar .navbar-toggler .open .line {
+  background-color: transparent;
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+#navbar .navbar .navbar-toggler .open:before {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+#navbar .navbar .navbar-toggler .open:after {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+#navbar .navbar .nav-link {
+  font-size: 1rem;
+  color: #1f2d3d;
+  padding-left: 0.5rem;
+}
+
+#banner {
+  margin-top: 5rem;
+}
+
+#produk {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#produk .slider-produk img {
+  margin-right: 1rem;
+}
+
+.modal-body .highlight p {
+  font-size: .6rem;
+}
+
+.modal-body .highlight p img {
+  display: none;
+}
+
+.modal-body .penjelasan p, .modal-body .syarat ul li {
+  text-align: justify;
+}
+
+.modal-body .syarat ul {
+  padding-left: 1rem;
+}
+
+.modal-body .button {
+  text-align: center;
+}
+
+.modal-body .button .btn {
+  padding: .375rem 1.5rem;
+  border-radius: .8rem;
+}
+
+.modal-body .button .btn-primary {
+  background-color: #183358;
+  border-color: #183358;
+}
+
+#visi-misi {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-image: url("../images/visimisi/bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#visi-misi .text {
+  background-color: rgba(255, 255, 255, .3);
+  padding: 1rem;
+  color: #fff;
+}
+
+#visi-misi .text .nav-link {
+  color: #fff;
+}
+
+#visi-misi .text .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #183358;
+  border-color: #183358;
+}
+
+#visi-misi .text #pills-profile {
+  text-align: center;
+}
+
+#visi-misi .gambar img {
+  display: none;
+}
+
+#kontak {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#kontak h1 {
+  margin-bottom: 1rem;
+}
+
+#kontak .row .card {
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+#kontak .row .card .card-body {
+  padding-bottom: 0;
+}
+
+#kontak .row .card img {
+  width: 100%;
+  border-radius: 10px 0 0 10px;
+}
+
+#galeri {
+  padding-bottom: 2rem;
+}
+
+#galeri .judul {
+  margin-bottom: 1rem;
+}
+
+#galeri .slider-galeri img {
+  margin-right: 1rem;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #130326;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer .kiri .gambar {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 20%;
+  margin-bottom: 1rem;
+}
+
+footer .kiri .gambar img {
+  width: 100%;
+}
+
+footer h1 {
+  color: #fff;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+footer p {
+  color: #fff;
+}
+
+footer .tengah, footer .kanan {
+  margin-top: 1rem;
+}
+
+footer .kanan .gambar {
+  width: 100%;
+  margin-top: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem 1rem 0 1rem;
+}
+
+footer .kanan .gambar img {
+  width: 50%;
+}
+
+footer .bottom {
+  margin-top: 1rem;
+}
+
+footer .bottom p {
+  margin-bottom: 0;
+}
+
+@media (min-width: 370px) {  
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+    }
+
+    p, li, .btn {
+      font-size: .9rem;
+    }
+    
+    .modal-body .highlight p {
+      font-size: .8rem;
+    }
+
+    footer {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+
+    footer .bottom {
+      margin-top: 2rem;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    /* animasi keatas */
+    #produk .header .judul-produk,
+    #visi-misi .gambar .gambar-bapak,
+    #kontak .judul-kontak,
+    #galeri .judul .judul-galeri {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: .5s ease-out;
+    }
+
+    #produk .header .judul-produk.muncul,
+    #visi-misi .gambar .gambar-bapak.muncul,
+    #kontak .judul-kontak.muncul,
+    #galeri .judul .judul-galeri.muncul {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    /* end animasi keatas */
+
+    /* animasi kebawah */
+    #produk .slider-produk .img-produk,
+    #galeri .slider-galeri .img-galeri {
+      opacity: 0;
+      transform: translateY(-30px);
+      transition: .5s ease-out;
+    }
+
+    #produk .slider-produk .img-produk.muncul,
+    #galeri .slider-galeri .img-galeri.muncul {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    /* end animasi kebawah */
+
+    /* animasi kekanan */
+    #visi-misi .text-visimisi #pills-tab, #visi-misi .text-visimisi #pills-tabContent {
+      opacity: 0;
+      transform: translateX(-15rem);
+      transition: .5s ease-out;
+    }
+
+    #visi-misi .text-visimisi #pills-tab.muncul, #visi-misi .text-visimisi #pills-tabContent.muncul {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    /* end animasi kekanan */
+
+    /* animasi flip */
+    #visi-misi .text-visimisi, 
+    #kontak .card-kontak {
+      opacity: 0;
+      transform: rotateY(180deg);
+      transition: .5s ease-out;
+    }
+
+    #visi-misi .text-visimisi.muncul, 
+    #kontak .card-kontak.muncul {
+      opacity: 1;
+      transform: rotateY(0deg);
+    }
+    /* end animasi flip */
+
+    h1 {
+      font-size: 4rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    p, li, .btn {
+      font-size: 1.4rem;
+    }
+
+    #navbar .navbar {
+      box-shadow: 0 0px 0px 0px rgb(0 0 0 / 0%);
+    }
+
+    #navbar .navbar .nav-link {
+        padding-left: 3rem;
+    }
+
+    #navbar .navbar .nav-link {
+      font-weight: 600;
+    }
+
+    #navbar .navbar .nav-link.active {
+      font-weight: bold;
+    }
+
+    #produk {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+    }
+
+    #produk .header h1 {
+      margin-bottom: 1.5rem;
+    }
+
+    #produk .slider-produk img {
+      margin-right: 4rem;
+      cursor: pointer;
+    }
+
+    #produk .slider-produk .img-produk.muncul:hover {
+      box-shadow: 0 18px 40px -15px rgba(153,18,30,.35);
+      transform: translate(0, -15px);
+    }
+
+    .modal-content {
+      border-radius: 2rem;
+    }
+
+    .modal-body {
+      padding: 3rem 4rem;
+    }
+
+    .modal-body .highlight p {
+      font-size: 1.3rem;
+    }
+
+    .modal-body .highlight p img {
+      display: inline;
+      height: 1.8rem;
+      margin-top: -.3rem;
+    }
+
+    #visi-misi {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #visi-misi .text {
+      padding: 2rem 2rem 2rem 20rem;
+      margin-left: 8rem;
+    }
+
+    #visi-misi .gambar img {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 13rem;
+      width: 20rem;
+    }
+
+    #kontak {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+    }
+
+    #kontak h1 {
+      margin-bottom: 2rem;
+    }
+
+    #kontak .row .card {
+      border-radius: 20px;
+      transition: .3s;
+    }
+
+    #kontak .row .card img {
+      border-radius: 20px 0 0 20px;
+    }
+
+    #kontak .row .card h2 {
+      font-size: 1.3rem;
+    }
+
+    #kontak .row .card p {
+      font-size: .9rem;
+    }
+
+    #galeri {
+      padding-bottom: 5rem;
+    }
+
+    #galeri .judul {
+      margin-bottom: 2rem;
+    }
+
+    #galeri .slider-galeri .img-galeri {
+      cursor:pointer;
+    }
+
+    footer p {
+      font-size: 1.2rem;
+    }
+
+    footer .kiri .gambar {
+      margin-left: 0;
+      width: 40%;
+    }
+
+    footer .kanan h1 {
+      text-align: center;
+    }
+
+    footer .tengah h1 {
+      text-align: left;
+    }
+
+    footer .tengah p {
+      margin-top: 2rem;
+    }
+
+    footer .kanan .gambar {
+      margin-top: 2rem;
+      width: 100%;
+    }
+
+    footer .kanan .gambar img {
+      width: 50%;
+    }
+
+    footer .bottom {
+      text-align: center;
+    }
+
+}
+
+/* Animation */
+@keyframes content_reveal {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide_kanan {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide_kiri {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide_atas {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide_bawah {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
