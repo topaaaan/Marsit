@@ -3,5 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/marsitba/public_html/
     - /bin/cp index.php $DEPLOYPATH
-    - /bin/cp karir.php $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
